@@ -1,12 +1,12 @@
 [nfs]
-172.31.29.150 ansible_ssh_user='ec2-user':
+172.31.29.150 ansible_ssh_user='ec2-user'=/home/ubuntu/.ssh/authorized_keys:
 
 [webservers]
-172.31.23.254 ansible_ssh_user='ec2-user':
-172.31.16.9 ansible_ssh_user='ec2-user':
+172.31.23.254 ansible_ssh_user='ec2-user'=/home/ubuntu/.ssh/authorized_keys:
+172.31.16.9 ansible_ssh_user='ec2-user'=/home/ubuntu/.ssh/authorized_keys:
 
 [db]
-172.31.16.130 ansible_ssh_user='ec2-user': 
+172.31.16.130 ansible_ssh_user='ec2-user'=/home/ubuntu/.ssh/authorized_keys: 
 
 [lb]
-172.31.90.161 ansible_ssh_user='ubuntu':
+172.31.90.161 ansible_ssh_user='ubuntu'=/home/ubuntu/.ssh/authorized_keys:
